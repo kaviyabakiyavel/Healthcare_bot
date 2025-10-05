@@ -42,4 +42,22 @@ chmod +x setup_project.sh
 ./setup_project.sh
 
 
-After running, you’ll see your src/, research/, and all files created in your current folder. 🎉
+After running, you’ll see your src/, research/, and all files created in your current folder. 
+
+
+
+Open your terminal (Anaconda Prompt on Windows, or normal terminal if Conda is installed).
+
+Run:
+
+conda create -n medibot python=3.10 -y
+
+
+Activate the environment:
+
+conda activate medibot
+
+
+Now install your requirements (once you have them in requirements.txt):
+
+pip install -r requirements.txt
